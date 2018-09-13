@@ -24,6 +24,7 @@ Run the following commands
 npm install
 npm audit fix
 npm run build
+cd dist
 
 // SSL & Deploy to HTTPS
 openssl req -newkey rsa:2048 -nodes -keyout key.pem -x509 -days 365 -out certificate.pem
